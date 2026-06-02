@@ -1,9 +1,10 @@
-<!doctype html>
-<html lang="de" data-qb-installed="true"><head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title id="page-title">Urlaub in Teilzeit Rechner</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="app-wrapper">
@@ -11,12 +12,18 @@
       <h1 id="page-title-heading">Urlaub in Teilzeit Rechner</h1>
       <p class="subtitle">Berechnen Sie Ihren Urlaubsanspruch bei Teilzeitbeschäftigung</p>
 
-      <form id="calculator-form" novalidate="">
+      <form id="calculator-form" novalidate>
 
         <!-- Urlaubsanspruch Vollzeit -->
         <div class="form-group">
           <label for="vollzeit-urlaub">Urlaubsanspruch bei Vollzeit (Arbeitstage)</label>
-          <input type="number" id="vollzeit-urlaub" min="1" max="365" placeholder="z. B. 30">
+          <input
+            type="number"
+            id="vollzeit-urlaub"
+            min="1"
+            max="365"
+            placeholder="z. B. 30"
+          />
         </div>
 
         <!-- Regelarbeitswoche -->
@@ -24,11 +31,11 @@
           <label>Regelarbeitswoche bei Vollzeit</label>
           <div class="radio-wrapper">
             <label class="radio-group" for="woche-5">
-              <input type="radio" id="woche-5" name="vollzeit-woche" value="5" checked="">
+              <input type="radio" id="woche-5" name="vollzeit-woche" value="5" checked />
               5-Tage-Woche
             </label>
             <label class="radio-group" for="woche-6">
-              <input type="radio" id="woche-6" name="vollzeit-woche" value="6">
+              <input type="radio" id="woche-6" name="vollzeit-woche" value="6" />
               6-Tage-Woche
             </label>
           </div>
@@ -69,6 +76,5 @@
     </div>
   </div>
   <script src="script.js"></script>
-
-
-</body></html>
+</body>
+</html>
